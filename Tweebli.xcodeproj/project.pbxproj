@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AA145D8219BEEBD2005099E6 /* InboxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA145D8119BEEBD2005099E6 /* InboxTableViewController.swift */; };
-		AA3207B019C0378200D94D27 /* TagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA3207AF19C0378200D94D27 /* TagCell.xib */; };
 		AA73664F19BF135400B9652B /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA73664E19BF135400B9652B /* Date.swift */; };
 		AA73665119BF14F200B9652B /* TweebliTestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA73665019BF14F200B9652B /* TweebliTestData.swift */; };
 		AA73665319BF248000B9652B /* InboxTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA73665219BF248000B9652B /* InboxTableCell.xib */; };
@@ -23,6 +22,14 @@
 		AAAB864E19C3313C008349D9 /* OutboxTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAAB864D19C3313C008349D9 /* OutboxTableCell.xib */; };
 		AAAB865019C33297008349D9 /* OutboxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAB864F19C33297008349D9 /* OutboxTableViewCell.swift */; };
 		AAAB865219C33680008349D9 /* PostingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAB865119C33680008349D9 /* PostingViewController.swift */; };
+		AAAB865419C348E1008349D9 /* InviteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAB865319C348E1008349D9 /* InviteTableViewController.swift */; };
+		AAAB865619C3492A008349D9 /* InviteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAB865519C3492A008349D9 /* InviteViewController.swift */; };
+		AAAB865819C34DE8008349D9 /* InvitesTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAAB865719C34DE8008349D9 /* InvitesTableCell.xib */; };
+		AAAB865A19C34E7E008349D9 /* InvitesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAB865919C34E7E008349D9 /* InvitesTableViewCell.swift */; };
+		AAAB865C19C35A75008349D9 /* ConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAB865B19C35A75008349D9 /* ConnectionViewController.swift */; };
+		AAAB865E19C35A8A008349D9 /* ConnectionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAB865D19C35A8A008349D9 /* ConnectionsTableViewController.swift */; };
+		AAAB866019C35AC7008349D9 /* ConnectionsTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAAB865F19C35AC7008349D9 /* ConnectionsTableCell.xib */; };
+		AAAB866219C35B7A008349D9 /* ConnectionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAB866119C35B7A008349D9 /* ConnectionsTableViewCell.swift */; };
 		AAC3C08C19BF613500AD1918 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC3C08B19BF613500AD1918 /* NotificationViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +45,6 @@
 
 /* Begin PBXFileReference section */
 		AA145D8119BEEBD2005099E6 /* InboxTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboxTableViewController.swift; sourceTree = "<group>"; };
-		AA3207AF19C0378200D94D27 /* TagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TagCell.xib; path = ../TagCell.xib; sourceTree = "<group>"; };
 		AA73664E19BF135400B9652B /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		AA73665019BF14F200B9652B /* TweebliTestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweebliTestData.swift; sourceTree = "<group>"; };
 		AA73665219BF248000B9652B /* InboxTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InboxTableCell.xib; sourceTree = "<group>"; };
@@ -57,6 +63,14 @@
 		AAAB864D19C3313C008349D9 /* OutboxTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OutboxTableCell.xib; path = ../OutboxTableCell.xib; sourceTree = "<group>"; };
 		AAAB864F19C33297008349D9 /* OutboxTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutboxTableViewCell.swift; sourceTree = "<group>"; };
 		AAAB865119C33680008349D9 /* PostingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostingViewController.swift; sourceTree = "<group>"; };
+		AAAB865319C348E1008349D9 /* InviteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteTableViewController.swift; sourceTree = "<group>"; };
+		AAAB865519C3492A008349D9 /* InviteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteViewController.swift; sourceTree = "<group>"; };
+		AAAB865719C34DE8008349D9 /* InvitesTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InvitesTableCell.xib; sourceTree = "<group>"; };
+		AAAB865919C34E7E008349D9 /* InvitesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvitesTableViewCell.swift; sourceTree = "<group>"; };
+		AAAB865B19C35A75008349D9 /* ConnectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionViewController.swift; sourceTree = "<group>"; };
+		AAAB865D19C35A8A008349D9 /* ConnectionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionsTableViewController.swift; sourceTree = "<group>"; };
+		AAAB865F19C35AC7008349D9 /* ConnectionsTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConnectionsTableCell.xib; sourceTree = "<group>"; };
+		AAAB866119C35B7A008349D9 /* ConnectionsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionsTableViewCell.swift; sourceTree = "<group>"; };
 		AAC3C08B19BF613500AD1918 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,7 +114,9 @@
 			isa = PBXGroup;
 			children = (
 				AAAB864D19C3313C008349D9 /* OutboxTableCell.xib */,
-				AA3207AF19C0378200D94D27 /* TagCell.xib */,
+				AAAB865F19C35AC7008349D9 /* ConnectionsTableCell.xib */,
+				AAAB866119C35B7A008349D9 /* ConnectionsTableViewCell.swift */,
+				AAAB865719C34DE8008349D9 /* InvitesTableCell.xib */,
 				AA9F702419BA152B007DE405 /* AppDelegate.swift */,
 				AA9F702619BA152B007DE405 /* FirstViewController.swift */,
 				AA9F702A19BA152B007DE405 /* Main.storyboard */,
@@ -116,6 +132,11 @@
 				AA73665019BF14F200B9652B /* TweebliTestData.swift */,
 				AAC3C08B19BF613500AD1918 /* NotificationViewController.swift */,
 				AAAB864F19C33297008349D9 /* OutboxTableViewCell.swift */,
+				AAAB865319C348E1008349D9 /* InviteTableViewController.swift */,
+				AAAB865519C3492A008349D9 /* InviteViewController.swift */,
+				AAAB865919C34E7E008349D9 /* InvitesTableViewCell.swift */,
+				AAAB865B19C35A75008349D9 /* ConnectionViewController.swift */,
+				AAAB865D19C35A8A008349D9 /* ConnectionsTableViewController.swift */,
 			);
 			path = Tweebli;
 			sourceTree = "<group>";
@@ -194,6 +215,7 @@
 				TargetAttributes = {
 					AA9F701E19BA152B007DE405 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = M4G2KVRQW5;
 					};
 					AA9F703219BA152B007DE405 = {
 						CreatedOnToolsVersion = 6.0;
@@ -225,10 +247,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA3207B019C0378200D94D27 /* TagCell.xib in Resources */,
 				AAAB864E19C3313C008349D9 /* OutboxTableCell.xib in Resources */,
 				AA73665319BF248000B9652B /* InboxTableCell.xib in Resources */,
 				AA9F702C19BA152B007DE405 /* Main.storyboard in Resources */,
+				AAAB865819C34DE8008349D9 /* InvitesTableCell.xib in Resources */,
+				AAAB866019C35AC7008349D9 /* ConnectionsTableCell.xib in Resources */,
 				AA9F702E19BA152B007DE405 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,14 +272,20 @@
 			files = (
 				AA73665119BF14F200B9652B /* TweebliTestData.swift in Sources */,
 				AA9F704419BA21F7007DE405 /* TweebliService.swift in Sources */,
+				AAAB865C19C35A75008349D9 /* ConnectionViewController.swift in Sources */,
+				AAAB865619C3492A008349D9 /* InviteViewController.swift in Sources */,
 				AA73664F19BF135400B9652B /* Date.swift in Sources */,
 				AAAB865219C33680008349D9 /* PostingViewController.swift in Sources */,
 				AA145D8219BEEBD2005099E6 /* InboxTableViewController.swift in Sources */,
 				AAC3C08C19BF613500AD1918 /* NotificationViewController.swift in Sources */,
 				AAAB864A19C32A74008349D9 /* PostingsTableTableViewController.swift in Sources */,
+				AAAB865E19C35A8A008349D9 /* ConnectionsTableViewController.swift in Sources */,
 				AA9F702519BA152B007DE405 /* AppDelegate.swift in Sources */,
+				AAAB865419C348E1008349D9 /* InviteTableViewController.swift in Sources */,
 				AA73665519BF28C400B9652B /* InboxTableViewCell.swift in Sources */,
 				AAAB865019C33297008349D9 /* OutboxTableViewCell.swift in Sources */,
+				AAAB866219C35B7A008349D9 /* ConnectionsTableViewCell.swift in Sources */,
+				AAAB865A19C34E7E008349D9 /* InvitesTableViewCell.swift in Sources */,
 				AA9F702719BA152B007DE405 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,9 +402,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Steve Baird (M4G2KVRQW5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tweebli/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3A6F477A-286F-446D-99AE-1FDA2FCE8D01";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -384,9 +418,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Steve Baird (M4G2KVRQW5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tweebli/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3A6F477A-286F-446D-99AE-1FDA2FCE8D01";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

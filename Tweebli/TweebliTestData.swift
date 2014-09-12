@@ -37,6 +37,19 @@ struct SimpleOutboxEntry: OutboxEntry {
     let posting: Posting
 }
 
+struct SimpleInvitesEntry: InvitesEntry {
+    let invitee: String
+    let sent: NSDate
+    let invite: Invite
+}
+
+struct SimpleInvite: Invite {
+    let invitee: String
+    let sent: NSDate
+    let message: String
+    let state: String
+}
+
 struct SimpleUserRef: UserRef {
     let name: String
     let profile: Profile
@@ -49,10 +62,26 @@ struct SimpleProfile: Profile {
     let image: UIImage
 }
 
+struct SimpleConnectionsEntry: ConnectionsEntry {
+    let name: String
+    let email: String
+    let profile: Profile?
+    let connection: Connection
+}
+
+struct SimpleConnection: Connection {
+    let name: String
+    let email: String
+    let tags: [String]
+    let profile: Profile?
+}
+
 struct SimpleUser: User {
     let profile: Profile
     let inbox: Inbox
     let outbox: Outbox
+    let invites: Invites
+    let connections: Connections
 }
 
 class ZaphodData {
@@ -81,6 +110,25 @@ class ZaphodData {
         }
     }
     
+    var inviteList: [Invite] {
+        get {
+            return [
+                SimpleInvite(invitee: "trillian@beeblebrox.com", sent: NSDate(dateString: "2015-09-05 10:00:00"), message: "Hi try this", state: "Pending"),
+                SimpleInvite(invitee: "arthur@beeblebrox.com", sent: NSDate(dateString: "2015-09-06 10:30:00"), message: "You should join", state: "Accepted")
+            ]
+        }
+    }
+    
+    var connectionList: [Connection] {
+        get {
+            return [
+                SimpleConnection(name: (userRefs["ford"]!).name, email: (userRefs["ford"]!).profile.email, tags: ["Dev", "Des", "London", "Bath"], profile: (userRefs["ford"]!).profile),
+                SimpleConnection(name: (userRefs["arthur"]!).name, email: (userRefs["arthur"]!).profile.email, tags: ["Tester", "Architect", "Paris", "Bristol"], profile: (userRefs["arthur"]!).profile),
+                SimpleConnection(name: "Random Dent", email: "random@beeblebox.com", tags: ["Analyst", "New York"], profile: nil)
+            ]
+        }
+    }
+    
     var inbox: [InboxEntry] {
         get {
             return notifications.map { SimpleInboxEntry(sender: $0.sender, subject: $0.subject, received: $0.received, notification: $0) }
@@ -93,9 +141,21 @@ class ZaphodData {
         }
     }
     
+    var invites: [InvitesEntry] {
+        get {
+            return inviteList.map { SimpleInvitesEntry(invitee: $0.invitee, sent: $0.sent, invite: $0) }
+        }
+    }
+    
+    var connections: [ConnectionsEntry] {
+        get {
+            return connectionList.map { SimpleConnectionsEntry(name: $0.name, email: $0.email, profile: $0.profile, connection: $0) }
+        }
+    }
+    
     var user: User {
         get {
-            return SimpleUser(profile: userRefs["zaphod"]!.profile, inbox: self.inbox, outbox: self.outbox)
+            return SimpleUser(profile: userRefs["zaphod"]!.profile, inbox: self.inbox, outbox: self.outbox, invites: self.invites, connections: self.connections)
         }
     }
     

@@ -13,6 +13,8 @@ protocol User {
     var profile: Profile {get}
     var inbox: Inbox {get}
     var outbox: Outbox {get}
+    var invites: Invites {get}
+    var connections: Connections {get}
 }
 
 protocol UserRef {
@@ -55,6 +57,33 @@ protocol Posting {
     var message: String {get}
 }
 
+protocol InvitesEntry {
+    var invitee: String {get}
+    var sent: NSDate {get}
+    var invite: Invite {get}
+}
+
+protocol Invite {
+    var invitee: String {get}
+    var sent: NSDate {get}
+    var message: String {get}
+    var state: String {get}
+}
+
+protocol ConnectionsEntry {
+    var name: String {get}
+    var email: String {get}
+    var profile: Profile? {get}
+    var connection: Connection {get}
+}
+
+protocol Connection {
+    var name: String {get}
+    var email: String {get}
+    var tags: [String] {get}
+    var profile: Profile? {get}
+}
+
 protocol TweebliService {
     var profile: Profile {get}
 }
@@ -69,4 +98,6 @@ class LocalTweebli {
 
 typealias Inbox = [InboxEntry]
 typealias Outbox = [OutboxEntry]
+typealias Invites = [InvitesEntry]
+typealias Connections = [ConnectionsEntry]
 

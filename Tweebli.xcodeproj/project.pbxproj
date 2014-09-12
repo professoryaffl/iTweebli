@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA145D8219BEEBD2005099E6 /* InboxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA145D8119BEEBD2005099E6 /* InboxTableViewController.swift */; };
+		AA3207B019C0378200D94D27 /* TagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA3207AF19C0378200D94D27 /* TagCell.xib */; };
+		AA73664F19BF135400B9652B /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA73664E19BF135400B9652B /* Date.swift */; };
+		AA73665119BF14F200B9652B /* TweebliTestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA73665019BF14F200B9652B /* TweebliTestData.swift */; };
+		AA73665319BF248000B9652B /* InboxTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA73665219BF248000B9652B /* InboxTableCell.xib */; };
+		AA73665519BF28C400B9652B /* InboxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA73665419BF28C400B9652B /* InboxTableViewCell.swift */; };
 		AA9F702519BA152B007DE405 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F702419BA152B007DE405 /* AppDelegate.swift */; };
 		AA9F702719BA152B007DE405 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F702619BA152B007DE405 /* FirstViewController.swift */; };
-		AA9F702919BA152B007DE405 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F702819BA152B007DE405 /* SecondViewController.swift */; };
 		AA9F702C19BA152B007DE405 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9F702A19BA152B007DE405 /* Main.storyboard */; };
 		AA9F702E19BA152B007DE405 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9F702D19BA152B007DE405 /* Images.xcassets */; };
 		AA9F703A19BA152B007DE405 /* TweebliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F703919BA152B007DE405 /* TweebliTests.swift */; };
+		AA9F704419BA21F7007DE405 /* TweebliService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F704319BA21F7007DE405 /* TweebliService.swift */; };
+		AAAB864A19C32A74008349D9 /* PostingsTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAB864919C32A74008349D9 /* PostingsTableTableViewController.swift */; };
+		AAAB864E19C3313C008349D9 /* OutboxTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAAB864D19C3313C008349D9 /* OutboxTableCell.xib */; };
+		AAAB865019C33297008349D9 /* OutboxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAB864F19C33297008349D9 /* OutboxTableViewCell.swift */; };
+		AAAB865219C33680008349D9 /* PostingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAB865119C33680008349D9 /* PostingViewController.swift */; };
+		AAC3C08C19BF613500AD1918 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC3C08B19BF613500AD1918 /* NotificationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +37,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA145D8119BEEBD2005099E6 /* InboxTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboxTableViewController.swift; sourceTree = "<group>"; };
+		AA3207AF19C0378200D94D27 /* TagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TagCell.xib; path = ../TagCell.xib; sourceTree = "<group>"; };
+		AA73664E19BF135400B9652B /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		AA73665019BF14F200B9652B /* TweebliTestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweebliTestData.swift; sourceTree = "<group>"; };
+		AA73665219BF248000B9652B /* InboxTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InboxTableCell.xib; sourceTree = "<group>"; };
+		AA73665419BF28C400B9652B /* InboxTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboxTableViewCell.swift; sourceTree = "<group>"; };
 		AA9F701F19BA152B007DE405 /* Tweebli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tweebli.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9F702319BA152B007DE405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA9F702419BA152B007DE405 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA9F702619BA152B007DE405 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		AA9F702819BA152B007DE405 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		AA9F702B19BA152B007DE405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA9F702D19BA152B007DE405 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AA9F703319BA152B007DE405 /* TweebliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TweebliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9F703819BA152B007DE405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA9F703919BA152B007DE405 /* TweebliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweebliTests.swift; sourceTree = "<group>"; };
+		AA9F704319BA21F7007DE405 /* TweebliService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweebliService.swift; sourceTree = "<group>"; };
+		AAAB864919C32A74008349D9 /* PostingsTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostingsTableTableViewController.swift; sourceTree = "<group>"; };
+		AAAB864D19C3313C008349D9 /* OutboxTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OutboxTableCell.xib; path = ../OutboxTableCell.xib; sourceTree = "<group>"; };
+		AAAB864F19C33297008349D9 /* OutboxTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutboxTableViewCell.swift; sourceTree = "<group>"; };
+		AAAB865119C33680008349D9 /* PostingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostingViewController.swift; sourceTree = "<group>"; };
+		AAC3C08B19BF613500AD1918 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +99,23 @@
 		AA9F702119BA152B007DE405 /* Tweebli */ = {
 			isa = PBXGroup;
 			children = (
+				AAAB864D19C3313C008349D9 /* OutboxTableCell.xib */,
+				AA3207AF19C0378200D94D27 /* TagCell.xib */,
 				AA9F702419BA152B007DE405 /* AppDelegate.swift */,
 				AA9F702619BA152B007DE405 /* FirstViewController.swift */,
-				AA9F702819BA152B007DE405 /* SecondViewController.swift */,
 				AA9F702A19BA152B007DE405 /* Main.storyboard */,
+				AA73665219BF248000B9652B /* InboxTableCell.xib */,
+				AA73665419BF28C400B9652B /* InboxTableViewCell.swift */,
 				AA9F702D19BA152B007DE405 /* Images.xcassets */,
 				AA9F702219BA152B007DE405 /* Supporting Files */,
+				AA9F704319BA21F7007DE405 /* TweebliService.swift */,
+				AA145D8119BEEBD2005099E6 /* InboxTableViewController.swift */,
+				AAAB864919C32A74008349D9 /* PostingsTableTableViewController.swift */,
+				AAAB865119C33680008349D9 /* PostingViewController.swift */,
+				AA73664E19BF135400B9652B /* Date.swift */,
+				AA73665019BF14F200B9652B /* TweebliTestData.swift */,
+				AAC3C08B19BF613500AD1918 /* NotificationViewController.swift */,
+				AAAB864F19C33297008349D9 /* OutboxTableViewCell.swift */,
 			);
 			path = Tweebli;
 			sourceTree = "<group>";
@@ -192,6 +225,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA3207B019C0378200D94D27 /* TagCell.xib in Resources */,
+				AAAB864E19C3313C008349D9 /* OutboxTableCell.xib in Resources */,
+				AA73665319BF248000B9652B /* InboxTableCell.xib in Resources */,
 				AA9F702C19BA152B007DE405 /* Main.storyboard in Resources */,
 				AA9F702E19BA152B007DE405 /* Images.xcassets in Resources */,
 			);
@@ -211,8 +247,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA9F702919BA152B007DE405 /* SecondViewController.swift in Sources */,
+				AA73665119BF14F200B9652B /* TweebliTestData.swift in Sources */,
+				AA9F704419BA21F7007DE405 /* TweebliService.swift in Sources */,
+				AA73664F19BF135400B9652B /* Date.swift in Sources */,
+				AAAB865219C33680008349D9 /* PostingViewController.swift in Sources */,
+				AA145D8219BEEBD2005099E6 /* InboxTableViewController.swift in Sources */,
+				AAC3C08C19BF613500AD1918 /* NotificationViewController.swift in Sources */,
+				AAAB864A19C32A74008349D9 /* PostingsTableTableViewController.swift in Sources */,
 				AA9F702519BA152B007DE405 /* AppDelegate.swift in Sources */,
+				AA73665519BF28C400B9652B /* InboxTableViewCell.swift in Sources */,
+				AAAB865019C33297008349D9 /* OutboxTableViewCell.swift in Sources */,
 				AA9F702719BA152B007DE405 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,7 +325,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -317,7 +361,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -399,6 +443,7 @@
 				AA9F703F19BA152B007DE405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA9F704019BA152B007DE405 /* Build configuration list for PBXNativeTarget "TweebliTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +452,7 @@
 				AA9F704219BA152B007DE405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
